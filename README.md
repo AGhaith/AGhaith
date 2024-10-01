@@ -3,7 +3,7 @@
 <table>
     <thead>
         <tr>
-<td align="center" width="25%"><a href="https://github.com/AGhaith/SICFinalProject/blob/main/README.md">         Samsung Innovation Campus Project    </a></td>
+<td align="center" width="25%"><a href="https://github.com/AGhaith/SICFinalProject/blob/main/README.md">         Samsung Innovation Campus    </a></td>
 <td align="center" width="25%"><a href="https://github.com/AGhaith/educational-projects/blob/master/README.md">              Educational Projects         </a></td>
         </tr>
     </thead>
