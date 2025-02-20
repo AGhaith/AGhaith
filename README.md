@@ -11,6 +11,7 @@
         <tr>
 <td align="center"><a href="https://github.com/AGhaith/SICProjects/blob/main/README.md">        <img src="/logos/Samsung-Innovation-Campus-Project.png"          width="80%"></img></a></td>
 <td align="center"><a href="https://github.com/AGhaith/educational-projects/blob/master/README.md">             <img src="/logos/educational-projects.png"               width="80%"></img></a></td>
+<td align="center"><a href="https://github.com/AGhaith/educational-projects/blob/master/README.md">             <img src="/logos/personal-project.jpg"               width="80%"></img></a></td>
         </tr>
     </tbody>
 </table>
