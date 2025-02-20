@@ -5,6 +5,7 @@
         <tr>
 <td align="center" width="25%"><a href="https://github.com/AGhaith/SICProjects/blob/main/README.md">         Samsung Innovation Campus    </a></td>
 <td align="center" width="25%"><a href="https://github.com/AGhaith/educational-projects/blob/master/README.md">              Educational Projects         </a></td>
+<td align="center" width="25%"><a href="https://github.com/AGhaith/educational-projects/blob/master/README.md">              Personal Projects         </a></td>
         </tr>
     </thead>
     <tbody>
