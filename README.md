@@ -22,7 +22,7 @@
         <tr>
 <td align="center"><a href="https://github.com/AGhaith/Google-Development-Group">        <img src="/logos/Google Logo.png"          width="80%"></img></a></td>
 <td align="center"><a href="https://github.com/AGhaith/VS-Code-Guide">        <img src="/logos/VsCodeLogo.png"          width="80%"></img></a></td>
-<td align="center"><a href="https://github.com/AGhaith/GitHub-Guide">        <img src="/logos/GitHubLogo.png"          width="80%"></img></a></td>
+<td align="center"><a href="https://github.com/AGhaith/GitHub-Guide">        <img src="/logos/GitHub Logo.png"          width="80%"></img></a></td>
 
         </tr>
     </tbody>
