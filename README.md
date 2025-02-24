@@ -44,7 +44,7 @@
             </td>
             <td align="center">
                 <a href="https://github.com/AGhaith/GitHub-Guide">
-                    <img src="/logos/GitHub- Logo.png" width="80%" alt="GitHub Guide">
+                    <img src="/logos/GitHub-Logo.png" width="80%" alt="GitHub Guide">
                 </a>
             </td>
         </tr>
