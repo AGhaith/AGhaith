@@ -5,24 +5,24 @@
         <tr>
             <td align="center" width="25%"><a href="https://github.com/AGhaith/SICProjects">Samsung Innovation Campus</a></td>
             <td align="center" width="25%"><a href="https://github.com/AGhaith/educational-projects">Educational Projects</a></td>
-            <td align="center" width="25%"><a href="https://github.com/AGhaith/Personal-Projects">Personal Projects</a></td>
+            <td align="center" width="25%"><a href="https://github.com/AGhaith/Personal-Projects">MLSA</a></td>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td align="center">
                 <a href="https://github.com/AGhaith/SICProjects">
-                    <img src="/logos/Samsung-Innovation-Campus-Project.png" width="80%" alt="Samsung Innovation Campus">
+                    <img src="/logos/Samsung-Innovation-Campus-Project.png" width="80%" alt="SIC Logo">
                 </a>
             </td>
             <td align="center">
                 <a href="https://github.com/AGhaith/educational-projects">
-                    <img src="/logos/educational-projects.png" width="80%" alt="Educational Projects">
+                    <img src="/logos/educational-projects.png" width="80%" alt="EP Logo">
                 </a>
             </td>
             <td align="center">
                 <a href="https://github.com/AGhaith/Personal-Projects">
-                    <img src="/logos/Personal-Projects.png" width="80%" alt="Personal Projects">
+                    <img src="/logos/MLSA.png" width="80%" alt="MLSA Logo">
                 </a>
             </td>
         </tr>
