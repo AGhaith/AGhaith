@@ -12,16 +12,16 @@
         <tr>
             <td align="center">
                 <a href="https://github.com/AGhaith/SICProjects">
-                    <img src="/logos/Samsung-Innovation-Campus-Project.png" width="80%" alt="SIC Logo">
+                    <img src="/logos/SIC.png" width="80%" alt="SIC Logo">
                 </a>
             </td>
             <td align="center">
                 <a href="https://github.com/AGhaith/educational-projects">
-                    <img src="/logos/educational-projects.png" width="80%" alt="EP Logo">
+                    <img src="/logos/EP.png" width="80%" alt="EP Logo">
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/AGhaith/Personal-Projects">
+                <a href="https://github.com/AGhaith/MLSA">
                     <img src="/logos/MLSA.png" width="80%" alt="MLSA Logo">
                 </a>
             </td>
@@ -34,17 +34,17 @@
         <tr>
             <td align="center">
                 <a href="https://github.com/AGhaith/Google-Development-Group">
-                    <img src="/logos/Google-Logo.png" width="80%" alt="Google Development Group">
+                    <img src="/logos/GDG.png" width="80%" alt="Google Development Group">
                 </a>
             </td>
             <td align="center">
                 <a href="https://github.com/AGhaith/VS-Code-Guide">
-                    <img src="/logos/VsCodeLogo.png" width="80%" alt="VSCode Guide">
+                    <img src="/logos/VSC.png" width="80%" alt="VSCode Guide">
                 </a>
             </td>
             <td align="center">
                 <a href="https://github.com/AGhaith/GitHub-Guide">
-                    <img src="/logos/GitHub-Logo.png" width="80%" alt="GitHub Guide">
+                    <img src="/logos/GitHub.png" width="80%" alt="GitHub Guide">
                 </a>
             </td>
         </tr>
