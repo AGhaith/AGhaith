@@ -5,7 +5,7 @@
         <tr>
             <td align="center" width="25%"><a href="https://github.com/AGhaith/SICProjects">Samsung Innovation Campus</a></td>
             <td align="center" width="25%"><a href="https://github.com/AGhaith/educational-projects">Educational Projects</a></td>
-            <td align="center" width="25%"><a href="https://github.com/AGhaith/Personal-Projects">MLSA</a></td>
+            <td align="center" width="25%"><a href="https://github.com/AGhaith/MLSA">MLSA</a></td>
         </tr>
     </thead>
     <tbody>
