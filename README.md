@@ -28,8 +28,8 @@
         </tr>
         <tr>
             <td align="center" width="25%"><a href="https://github.com/AGhaith/Google-Development-Group">Google Development Group x NU</a></td>
-            <td align="center" width="25%"><a href="https://github.com/AGhaith/VS-Code-Guide">VSCode Guide</a></td>
-            <td align="center" width="25%"><a href="https://github.com/AGhaith/GitHub-Guide">GitHub Guide</a></td>
+            <td align="center" width="25%"><a href="https://github.com/AGhaith/VS-Code-Guide/blob/main/README.md">VSCode Guide</a></td>
+            <td align="center" width="25%"><a href="https://github.com/AGhaith/GitHub-Guide/blob/main/README.md">GitHub Guide</a></td>
         </tr>
         <tr>
             <td align="center">
