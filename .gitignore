@@ -1,0 +1,13 @@
+# Local Agent & Skills
+.agent/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# IDE & Editor
+.vscode/
+.idea/
+
+# Environment & Logs
+*.log
