@@ -43,7 +43,7 @@
       font-weight: 600;
       letter-spacing: 1.2px;
       text-transform: uppercase;
-      fill: #6e6e73;
+      fill: #a1a1a6;
     }
     .col-headline {
       font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
@@ -63,7 +63,7 @@
       font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
       font-size: 11.5px;
       font-weight: 400;
-      fill: #6e6e73;
+      fill: #a1a1a6;
     }
   </style>
 
@@ -72,9 +72,9 @@
 
   <!-- Header Section -->
   <g transform="translate(48, 44)">
-    <text x="0" y="0" class="apple-label">ENGINEERING SPECIFICATION</text>
+    <text x="0" y="0" class="apple-label">DEVELOPMENT &amp; COMMUNITY</text>
     <text x="0" y="36" class="apple-name">Ahmed Wesam</text>
-    <text x="0" y="62" class="apple-subtitle">Backend architecture, modern client interfaces, and private infrastructure. Nile University.</text>
+    <text x="0" y="62" class="apple-subtitle">Backend systems, web interfaces, and self-hosted infrastructure.</text>
   </g>
 
   <!-- Divider Line -->
