@@ -1,10 +1,10 @@
 <div align="center">
 
-  <img src="./assets/overview.svg" alt="Ahmed Wesam — backend development, frontend interfaces, and infrastructure" width="100%" />
+  <img src="./assets/overview.svg" alt="Ahmed Wesam — Computer Science at Nile University and Head of the SU Technical Committee. Backend systems, React interfaces, and self-hosted infrastructure." width="100%" />
 
   <br><br>
 
-  <a href="mailto:a.wesam2300@nu.edu.eg">Email</a>
+  <a href="mailto:a.wesam2300@nu.edu.eg">Get in touch</a>
   &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/ahmed-wesam/">LinkedIn</a>
   &nbsp;·&nbsp;
@@ -12,26 +12,14 @@
 
 </div>
 
-## Hi, I'm Ahmed
+## About
 
-**Computer Science at Nile University · Head of the SU Technical Committee**
+I'm Ahmed, a Computer Science student at Nile University, based in Sheikh Zayed, Cairo. I build .NET APIs, React interfaces, and the self-hosted infrastructure that connects them.
 
-Based in Sheikh Zayed, Cairo, Egypt. I work across .NET backend systems, React interfaces, and the infrastructure that connects them.
-
-I build APIs, work with self-hosted services, and share practical developer guides and workshop materials.
-
-## What I work with
-
-| Area | Technologies & focus |
-| --- | --- |
-| Backend | C#, .NET Core, Clean Architecture, APIs |
-| Frontend | TypeScript, React, Next.js App Router, Tailwind CSS |
-| Infrastructure | Docker, Linux, VPS deployments, local servers |
-| Data & storage | PostgreSQL through Supabase, MongoDB, Cloudflare R2, S3-compatible storage |
+I also share practical developer guides and workshop materials, and lead the **SU Technical Committee**.
 
 ## Leadership & community
 
-- **Head of the SU Technical Committee** — Current role.
 - **Microsoft Learn Student Ambassador** — Technical sessions and workshops on backend development and cloud systems.
 - **Google Developer Groups on Campus** — Developer tracks and hands-on learning materials for Nile University students.
 - **Samsung Innovation Campus** — Embedded microcontrollers, sensor telemetry, and hardware integration.

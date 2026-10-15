@@ -1,128 +1,139 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">Ahmed Wesam — development and community</title>
+  <desc id="description">Computer Science at Nile University. Head of the SU Technical Committee. Building backend systems, web interfaces, and self-hosted infrastructure. C# and .NET, React and TypeScript, Docker and Linux, PostgreSQL and Cloudflare R2. A silver and slate geometric emblem gently floats beside the introduction.</desc>
   <defs>
-    <!-- Apple Dark Surface -->
-    <linearGradient id="appleSurface" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#141416" />
-      <stop offset="100%" stop-color="#0c0c0e" />
+    <linearGradient id="surface" x1="0" y1="0" x2="960" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171e28"/><stop offset=".6" stop-color="#0d121b"/><stop offset="1" stop-color="#101620"/>
     </linearGradient>
-
-    <!-- Subtle Hairline Gradient -->
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#2c2c2e" />
-      <stop offset="50%" stop-color="#3a3a3c" />
-      <stop offset="100%" stop-color="#2c2c2e" />
+    <linearGradient id="edge" x1="0" y1="0" x2="960" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#515e6a" stop-opacity=".65"/><stop offset=".5" stop-color="#293441" stop-opacity=".5"/><stop offset="1" stop-color="#536776" stop-opacity=".5"/>
     </linearGradient>
+    <linearGradient id="silver" x1="-60" y1="-65" x2="48" y2="70" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f1f6ee"/><stop offset=".5" stop-color="#bdcbd0"/><stop offset="1" stop-color="#748a99"/>
+    </linearGradient>
+    <linearGradient id="slate" x1="-20" y1="-70" x2="65" y2="65" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#758a99"/><stop offset="1" stop-color="#252e3e"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="-6" x2="0" y2="6" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c4f8ff"/><stop offset="1" stop-color="#71cce5"/>
+    </linearGradient>
+    <radialGradient id="halo"><stop stop-color="#8fd5e7" stop-opacity=".12"/><stop offset="1" stop-color="#8fd5e7" stop-opacity="0"/></radialGradient>
+    <clipPath id="ticker-clip"><rect width="864" height="24"/></clipPath>
+    <linearGradient id="ticker-fade"><stop stop-color="white" stop-opacity="0"/><stop offset=".04" stop-color="white"/><stop offset=".96" stop-color="white"/><stop offset="1" stop-color="white" stop-opacity="0"/></linearGradient>
+    <mask id="ticker-mask"><rect width="864" height="24" fill="url(#ticker-fade)"/></mask>
+    <g id="tools" class="tools">
+      <text x="0" y="17">C# / .NET</text><circle cx="127" cy="12" r="2"/>
+      <text x="154" y="17">React</text><circle cx="249" cy="12" r="2"/>
+      <text x="276" y="17">TypeScript</text><circle cx="409" cy="12" r="2"/>
+      <text x="436" y="17">Docker</text><circle cx="537" cy="12" r="2"/>
+      <text x="564" y="17">Linux</text><circle cx="655" cy="12" r="2"/>
+      <text x="682" y="17">Cloudflare R2</text><circle cx="837" cy="12" r="2"/>
+    </g>
   </defs>
-
   <style>
-    .apple-label {
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
-      font-size: 10px;
-      font-weight: 600;
-      letter-spacing: 1.6px;
-      text-transform: uppercase;
-      fill: #2997ff;
+    /* SVG-native motion works in GitHub image embeds without JavaScript.
+       Inspired by Motion UI's text transitions, staggered reveals, and ticker.
+       No Motion+ component source or external dependencies are included. */
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .eyebrow { fill: #a3b3bf; font-size: 11px; font-weight: 500; letter-spacing: 2.2px; }
+    .name { fill: #edf2ef; font-size: 49px; font-weight: 600; letter-spacing: -2px; }
+    .role { fill: #a9deeb; font-size: 19px; font-weight: 400; letter-spacing: -.25px; }
+    .body { fill: #a6b2bf; font-size: 14px; }
+    .label { fill: #97a6b5; font-size: 10px; font-weight: 500; letter-spacing: 1.6px; }
+    .stack { fill: #dce5e6; font-size: 18px; font-weight: 500; letter-spacing: -.4px; }
+    .detail { fill: #a6b2bf; font-size: 12px; }
+    .rule { stroke: #a4bdcc; stroke-opacity: .14; }
+    .tools text { fill: #a3b2bf; font-size: 12px; letter-spacing: .4px; }
+    .tools circle { fill: #69808f; }
+    .intro { animation: reveal 1s cubic-bezier(.22, 1, .36, 1) both; }
+    .intro-2 { animation-delay: .12s; }
+    .intro-3 { animation-delay: .24s; }
+    .intro-4 { animation-delay: .36s; }
+    .column { animation: reveal 1s cubic-bezier(.22, 1, .36, 1) both; }
+    .column-1 { animation-delay: .45s; }
+    .column-2 { animation-delay: .54s; }
+    .column-3 { animation-delay: .63s; }
+    .column-4 { animation-delay: .72s; }
+    .role-first { animation: role-first 15s cubic-bezier(.22, 1, .36, 1) 1.3s infinite; }
+    .role-second { opacity: 0; animation: role-second 15s cubic-bezier(.22, 1, .36, 1) 1.3s infinite; }
+    .role-third { opacity: 0; animation: role-third 15s cubic-bezier(.22, 1, .36, 1) 1.3s infinite; }
+    .emblem { animation: float 8s ease-in-out infinite; }
+    .halo { animation: breathe 8s ease-in-out infinite; }
+    .orbit { animation: orbit 28s linear infinite; }
+    .ticker { animation: ticker 48s linear infinite; }
+    @keyframes reveal { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+    @keyframes breathe { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
+    @keyframes orbit { to { transform: rotate(360deg); } }
+    @keyframes ticker { to { transform: translateX(-864px); } }
+    @keyframes role-first {
+      0%, 27%, 100% { opacity: 1; transform: translateY(0); }
+      32% { opacity: 0; transform: translateY(-6px); }
+      33%, 94% { opacity: 0; transform: translateY(6px); }
     }
-    .apple-name {
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", sans-serif;
-      font-size: 34px;
-      font-weight: 600;
-      letter-spacing: -0.8px;
-      fill: #f5f5f7;
+    @keyframes role-second {
+      0%, 27% { opacity: 0; transform: translateY(6px); }
+      33%, 60% { opacity: 1; transform: translateY(0); }
+      65% { opacity: 0; transform: translateY(-6px); }
+      66%, 100% { opacity: 0; transform: translateY(6px); }
     }
-    .apple-subtitle {
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
-      font-size: 13.5px;
-      font-weight: 400;
-      letter-spacing: -0.1px;
-      fill: #86868b;
+    @keyframes role-third {
+      0%, 60% { opacity: 0; transform: translateY(6px); }
+      66%, 94% { opacity: 1; transform: translateY(0); }
+      100% { opacity: 0; transform: translateY(-6px); }
     }
-    .col-header {
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
-      font-size: 10px;
-      font-weight: 600;
-      letter-spacing: 1.2px;
-      text-transform: uppercase;
-      fill: #a1a1a6;
-    }
-    .col-headline {
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
-      font-size: 20px;
-      font-weight: 600;
-      letter-spacing: -0.4px;
-      fill: #f5f5f7;
-    }
-    .col-spec {
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
-      font-size: 12.5px;
-      font-weight: 400;
-      letter-spacing: -0.1px;
-      fill: #a1a1a6;
-    }
-    .col-dim {
-      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
-      font-size: 11.5px;
-      font-weight: 400;
-      fill: #a1a1a6;
+    @media (prefers-reduced-motion: reduce) {
+      .intro, .column, .role-first, .role-second, .role-third,
+      .emblem, .halo, .orbit, .ticker { animation: none; }
+      .role-second, .role-third { display: none; }
     }
   </style>
-
-  <!-- Container -->
-  <rect width="900" height="300" rx="18" fill="url(#appleSurface)" stroke="url(#borderGrad)" stroke-width="1" />
-
-  <!-- Header Section -->
-  <g transform="translate(48, 44)">
-    <text x="0" y="0" class="apple-label">DEVELOPMENT &amp; COMMUNITY</text>
-    <text x="0" y="36" class="apple-name">Ahmed Wesam</text>
-    <text x="0" y="62" class="apple-subtitle">Backend systems, web interfaces, and self-hosted infrastructure.</text>
+  <rect x=".5" y=".5" width="959" height="419" rx="22" fill="url(#surface)" stroke="url(#edge)"/>
+  <g transform="translate(48 47)">
+    <g class="intro"><text class="eyebrow">DEVELOPMENT &amp; COMMUNITY</text></g>
+    <g class="intro intro-2"><text class="name" y="63">Ahmed Wesam</text></g>
+    <g transform="translate(0 100)"><g class="intro intro-3">
+      <text class="role role-first">Building thoughtful systems.</text>
+      <text class="role role-second" aria-hidden="true">From API to interface.</text>
+      <text class="role role-third" aria-hidden="true">Learning. Building. Sharing.</text>
+    </g></g>
+    <g class="intro intro-4">
+      <text class="body" y="139">Computer Science at Nile University.</text>
+      <text class="body" y="161">Head of the SU Technical Committee.</text>
+    </g>
   </g>
-
-  <!-- Divider Line -->
-  <line x1="48" y1="134" x2="852" y2="134" stroke="#242426" stroke-width="1" />
-
-  <!-- 4-Column Spec Grid -->
-  <!-- Column 1: Backend -->
-  <g transform="translate(48, 160)">
-    <text x="0" y="0" class="col-header">BACKEND</text>
-    <text x="0" y="26" class="col-headline">.NET Core</text>
-    <text x="0" y="52" class="col-spec">C# 12</text>
-    <text x="0" y="72" class="col-dim">Clean Architecture</text>
-    <text x="0" y="90" class="col-dim">Enterprise APIs</text>
+  <!-- Silver and slate quadrants echo the supplied logo's palette and geometry. -->
+  <g transform="translate(788 132)" aria-hidden="true">
+    <circle class="halo" r="124" fill="url(#halo)"/>
+    <circle r="96" stroke="#a6bfcb" stroke-opacity=".12"/>
+    <g class="orbit"><circle cx="0" cy="-96" r="3" fill="#a9deeb"/></g>
+    <g class="emblem">
+      <rect x="-73" y="-73" width="146" height="146" rx="31" fill="#151e2b" stroke="#657988" stroke-opacity=".42"/>
+      <path d="M0-60 A60 60 0 0 0-60 0 H0Z" fill="url(#silver)"/>
+      <path d="M0-60 A60 60 0 0 1 60 0 H0Z" fill="url(#slate)"/>
+      <path d="M-60 0 A60 60 0 0 0 0 60 V0Z" fill="url(#slate)"/>
+      <path d="M0 0 H60 A60 60 0 0 1 0 60Z" fill="#202838"/>
+      <path d="M0-60 A60 60 0 0 0-60 0" stroke="#ecf4ef" stroke-opacity=".55"/>
+      <circle cx="-57" cy="-57" r="6" fill="#829eae"/>
+      <g transform="translate(57 57)"><circle r="6" fill="url(#cyan)"/></g>
+    </g>
   </g>
-
-  <!-- Hairline 1 -->
-  <line x1="250" y1="150" x2="250" y2="265" stroke="#242426" stroke-width="1" />
-
-  <!-- Column 2: Client -->
-  <g transform="translate(280, 160)">
-    <text x="0" y="0" class="col-header">FRONTEND</text>
-    <text x="0" y="26" class="col-headline">React</text>
-    <text x="0" y="52" class="col-spec">Next.js App Router</text>
-    <text x="0" y="72" class="col-dim">Tailwind CSS</text>
-    <text x="0" y="90" class="col-dim">TypeScript</text>
-  </g>
-
-  <!-- Hairline 2 -->
-  <line x1="470" y1="150" x2="470" y2="265" stroke="#242426" stroke-width="1" />
-
-  <!-- Column 3: Systems -->
-  <g transform="translate(500, 160)">
-    <text x="0" y="0" class="col-header">HOSTING</text>
-    <text x="0" y="26" class="col-headline">Docker</text>
-    <text x="0" y="52" class="col-spec">VPS Deployments</text>
-    <text x="0" y="72" class="col-dim">Local Server Nodes</text>
-    <text x="0" y="90" class="col-dim">Linux Environment</text>
-  </g>
-
-  <!-- Hairline 3 -->
-  <line x1="680" y1="150" x2="680" y2="265" stroke="#242426" stroke-width="1" />
-
-  <!-- Column 4: Storage -->
-  <g transform="translate(710, 160)">
-    <text x="0" y="0" class="col-header">STORAGE</text>
-    <text x="0" y="26" class="col-headline">Cloudflare R2</text>
-    <text x="0" y="52" class="col-spec">S3 Object Storage</text>
-    <text x="0" y="72" class="col-dim">Supabase (PostgreSQL)</text>
-    <text x="0" y="90" class="col-dim">MongoDB</text>
-  </g>
+  <path class="rule" d="M48 242H912"/>
+  <g transform="translate(48 273)"><g class="column column-1">
+    <text class="label">BACKEND</text><text class="stack" y="29">C# / .NET</text><text class="detail" y="53">APIs &amp; Clean Architecture</text>
+  </g></g>
+  <g transform="translate(270 273)"><g class="column column-2">
+    <text class="label">FRONTEND</text><text class="stack" y="29">React / Next.js</text><text class="detail" y="53">TypeScript &amp; Tailwind CSS</text>
+  </g></g>
+  <g transform="translate(492 273)"><g class="column column-3">
+    <text class="label">INFRASTRUCTURE</text><text class="stack" y="29">Docker / Linux</text><text class="detail" y="53">VPS &amp; self-hosted services</text>
+  </g></g>
+  <g transform="translate(714 273)"><g class="column column-4">
+    <text class="label">DATA &amp; STORAGE</text><text class="stack" y="29">PostgreSQL / R2</text><text class="detail" y="53">Supabase &amp; MongoDB</text>
+  </g></g>
+  <path class="rule" d="M48 357H912"/>
+  <!-- Identical tracks loop seamlessly and degrade to static text without CSS. -->
+  <g transform="translate(48 376)" aria-hidden="true"><g clip-path="url(#ticker-clip)"><g mask="url(#ticker-mask)">
+    <g class="ticker"><use href="#tools"/><use href="#tools" x="864"/></g>
+  </g></g></g>
 </svg>
