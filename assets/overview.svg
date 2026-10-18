@@ -1,139 +1,140 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" fill="none" role="img" aria-labelledby="title description">
-  <title id="title">Ahmed Wesam — development and community</title>
-  <desc id="description">Computer Science at Nile University. Head of the SU Technical Committee. Building backend systems, web interfaces, and self-hosted infrastructure. C# and .NET, React and TypeScript, Docker and Linux, PostgreSQL and Cloudflare R2. A silver and slate geometric emblem gently floats beside the introduction.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1120" width="900" height="1120" role="img" aria-labelledby="profile-title profile-description">
+  <title id="profile-title">Ahmed Wesam | Engineering profile</title>
+  <desc id="profile-description">Backend architecture, modern client interfaces, and private infrastructure. Computer Science at Nile University. Head of the SU Technical Committee. Sheikh Zayed, Cairo, Egypt. Stack: .NET Core, C# 12, Clean Architecture, Enterprise APIs, React, Next.js App Router, Tailwind CSS, TypeScript, Docker, VPS Deployments, Local Server Nodes, Linux, Cloudflare R2, S3 Object Storage, Supabase PostgreSQL, and MongoDB. Initiatives: Microsoft Learn Student Ambassador, Google Developer Groups on Campus, and Samsung Innovation Campus. Guides on github.com/AGhaith: GitHub-Guide, VS-Code-Guide, Google-Development-Group, and educational-projects. Email: a.wesam2300@nu.edu.eg. LinkedIn: linkedin.com/in/ahmed-wesam.</desc>
   <defs>
-    <linearGradient id="surface" x1="0" y1="0" x2="960" y2="420" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#171e28"/><stop offset=".6" stop-color="#0d121b"/><stop offset="1" stop-color="#101620"/>
+    <linearGradient id="surface" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#171719" />
+      <stop offset="1" stop-color="#0c0c0e" />
     </linearGradient>
-    <linearGradient id="edge" x1="0" y1="0" x2="960" y2="420" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#515e6a" stop-opacity=".65"/><stop offset=".5" stop-color="#293441" stop-opacity=".5"/><stop offset="1" stop-color="#536776" stop-opacity=".5"/>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#414145" />
+      <stop offset="0.5" stop-color="#29292d" />
+      <stop offset="1" stop-color="#343438" />
     </linearGradient>
-    <linearGradient id="silver" x1="-60" y1="-65" x2="48" y2="70" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#f1f6ee"/><stop offset=".5" stop-color="#bdcbd0"/><stop offset="1" stop-color="#748a99"/>
-    </linearGradient>
-    <linearGradient id="slate" x1="-20" y1="-70" x2="65" y2="65" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#758a99"/><stop offset="1" stop-color="#252e3e"/>
-    </linearGradient>
-    <linearGradient id="cyan" x1="0" y1="-6" x2="0" y2="6" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#c4f8ff"/><stop offset="1" stop-color="#71cce5"/>
-    </linearGradient>
-    <radialGradient id="halo"><stop stop-color="#8fd5e7" stop-opacity=".12"/><stop offset="1" stop-color="#8fd5e7" stop-opacity="0"/></radialGradient>
-    <clipPath id="ticker-clip"><rect width="864" height="24"/></clipPath>
-    <linearGradient id="ticker-fade"><stop stop-color="white" stop-opacity="0"/><stop offset=".04" stop-color="white"/><stop offset=".96" stop-color="white"/><stop offset="1" stop-color="white" stop-opacity="0"/></linearGradient>
-    <mask id="ticker-mask"><rect width="864" height="24" fill="url(#ticker-fade)"/></mask>
-    <g id="tools" class="tools">
-      <text x="0" y="17">C# / .NET</text><circle cx="127" cy="12" r="2"/>
-      <text x="154" y="17">React</text><circle cx="249" cy="12" r="2"/>
-      <text x="276" y="17">TypeScript</text><circle cx="409" cy="12" r="2"/>
-      <text x="436" y="17">Docker</text><circle cx="537" cy="12" r="2"/>
-      <text x="564" y="17">Linux</text><circle cx="655" cy="12" r="2"/>
-      <text x="682" y="17">Cloudflare R2</text><circle cx="837" cy="12" r="2"/>
-    </g>
   </defs>
   <style>
-    /* SVG-native motion works in GitHub image embeds without JavaScript.
-       Inspired by Motion UI's text transitions, staggered reveals, and ticker.
-       No Motion+ component source or external dependencies are included. */
-    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
-    .eyebrow { fill: #a3b3bf; font-size: 11px; font-weight: 500; letter-spacing: 2.2px; }
-    .name { fill: #edf2ef; font-size: 49px; font-weight: 600; letter-spacing: -2px; }
-    .role { fill: #a9deeb; font-size: 19px; font-weight: 400; letter-spacing: -.25px; }
-    .body { fill: #a6b2bf; font-size: 14px; }
-    .label { fill: #97a6b5; font-size: 10px; font-weight: 500; letter-spacing: 1.6px; }
-    .stack { fill: #dce5e6; font-size: 18px; font-weight: 500; letter-spacing: -.4px; }
-    .detail { fill: #a6b2bf; font-size: 12px; }
-    .rule { stroke: #a4bdcc; stroke-opacity: .14; }
-    .tools text { fill: #a3b2bf; font-size: 12px; letter-spacing: .4px; }
-    .tools circle { fill: #69808f; }
-    .intro { animation: reveal 1s cubic-bezier(.22, 1, .36, 1) both; }
-    .intro-2 { animation-delay: .12s; }
-    .intro-3 { animation-delay: .24s; }
-    .intro-4 { animation-delay: .36s; }
-    .column { animation: reveal 1s cubic-bezier(.22, 1, .36, 1) both; }
-    .column-1 { animation-delay: .45s; }
-    .column-2 { animation-delay: .54s; }
-    .column-3 { animation-delay: .63s; }
-    .column-4 { animation-delay: .72s; }
-    .role-first { animation: role-first 15s cubic-bezier(.22, 1, .36, 1) 1.3s infinite; }
-    .role-second { opacity: 0; animation: role-second 15s cubic-bezier(.22, 1, .36, 1) 1.3s infinite; }
-    .role-third { opacity: 0; animation: role-third 15s cubic-bezier(.22, 1, .36, 1) 1.3s infinite; }
-    .emblem { animation: float 8s ease-in-out infinite; }
-    .halo { animation: breathe 8s ease-in-out infinite; }
-    .orbit { animation: orbit 28s linear infinite; }
-    .ticker { animation: ticker 48s linear infinite; }
-    @keyframes reveal { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
-    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
-    @keyframes breathe { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
-    @keyframes orbit { to { transform: rotate(360deg); } }
-    @keyframes ticker { to { transform: translateX(-864px); } }
-    @keyframes role-first {
-      0%, 27%, 100% { opacity: 1; transform: translateY(0); }
-      32% { opacity: 0; transform: translateY(-6px); }
-      33%, 94% { opacity: 0; transform: translateY(6px); }
-    }
-    @keyframes role-second {
-      0%, 27% { opacity: 0; transform: translateY(6px); }
-      33%, 60% { opacity: 1; transform: translateY(0); }
-      65% { opacity: 0; transform: translateY(-6px); }
-      66%, 100% { opacity: 0; transform: translateY(6px); }
-    }
-    @keyframes role-third {
-      0%, 60% { opacity: 0; transform: translateY(6px); }
-      66%, 94% { opacity: 1; transform: translateY(0); }
-      100% { opacity: 0; transform: translateY(-6px); }
-    }
-    @media (prefers-reduced-motion: reduce) {
-      .intro, .column, .role-first, .role-second, .role-third,
-      .emblem, .halo, .orbit, .ticker { animation: none; }
-      .role-second, .role-third { display: none; }
-    }
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+    .eyebrow { font-size: 11px; font-weight: 600; letter-spacing: 1.7px; fill: #2997ff; }
+    .name { font-size: 38px; font-weight: 600; letter-spacing: -1px; fill: #f5f5f7; }
+    .intro { font-size: 15px; fill: #b0b0b8; }
+    .label { font-size: 11px; font-weight: 600; letter-spacing: 1.2px; fill: #a1a1aa; }
+    .tech { font-size: 21px; font-weight: 600; letter-spacing: -0.5px; fill: #f5f5f7; }
+    .detail { font-size: 13px; fill: #b0b0b8; }
+    .section { font-size: 20px; font-weight: 600; letter-spacing: -0.3px; fill: #f5f5f7; }
+    .item { font-size: 15px; font-weight: 600; fill: #ededf0; }
+    .body { font-size: 14px; fill: #b0b0b8; }
+    .link { font-size: 12px; fill: #2997ff; }
+    .contact-label { font-size: 12px; fill: #a1a1aa; }
+    .contact-value { font-size: 14px; fill: #ededf0; }
+    .rule { stroke: #2b2b2f; stroke-width: 1; }
+    a { text-decoration: none; }
+    a:hover text, a:focus text { fill: #79beff; }
+    a:focus { outline: 2px solid #2997ff; outline-offset: 4px; }
   </style>
-  <rect x=".5" y=".5" width="959" height="419" rx="22" fill="url(#surface)" stroke="url(#edge)"/>
-  <g transform="translate(48 47)">
-    <g class="intro"><text class="eyebrow">DEVELOPMENT &amp; COMMUNITY</text></g>
-    <g class="intro intro-2"><text class="name" y="63">Ahmed Wesam</text></g>
-    <g transform="translate(0 100)"><g class="intro intro-3">
-      <text class="role role-first">Building thoughtful systems.</text>
-      <text class="role role-second" aria-hidden="true">From API to interface.</text>
-      <text class="role role-third" aria-hidden="true">Learning. Building. Sharing.</text>
-    </g></g>
-    <g class="intro intro-4">
-      <text class="body" y="139">Computer Science at Nile University.</text>
-      <text class="body" y="161">Head of the SU Technical Committee.</text>
-    </g>
+
+  <!-- A single continuous surface contains the complete profile. -->
+  <rect x="0.5" y="0.5" width="899" height="1119" rx="22" fill="url(#surface)" stroke="url(#edge)" />
+
+  <g transform="translate(44 44)">
+    <text class="eyebrow">ENGINEERING SPECIFICATION</text>
+    <text y="44" class="name">Ahmed Wesam</text>
+    <text y="75" class="intro">Backend architecture, modern client interfaces, and private infrastructure.</text>
+    <text y="100" class="body">Computer Science at Nile University · Head of the SU Technical Committee</text>
   </g>
-  <!-- Silver and slate quadrants echo the supplied logo's palette and geometry. -->
-  <g transform="translate(788 132)" aria-hidden="true">
-    <circle class="halo" r="124" fill="url(#halo)"/>
-    <circle r="96" stroke="#a6bfcb" stroke-opacity=".12"/>
-    <g class="orbit"><circle cx="0" cy="-96" r="3" fill="#a9deeb"/></g>
-    <g class="emblem">
-      <rect x="-73" y="-73" width="146" height="146" rx="31" fill="#151e2b" stroke="#657988" stroke-opacity=".42"/>
-      <path d="M0-60 A60 60 0 0 0-60 0 H0Z" fill="url(#silver)"/>
-      <path d="M0-60 A60 60 0 0 1 60 0 H0Z" fill="url(#slate)"/>
-      <path d="M-60 0 A60 60 0 0 0 0 60 V0Z" fill="url(#slate)"/>
-      <path d="M0 0 H60 A60 60 0 0 1 0 60Z" fill="#202838"/>
-      <path d="M0-60 A60 60 0 0 0-60 0" stroke="#ecf4ef" stroke-opacity=".55"/>
-      <circle cx="-57" cy="-57" r="6" fill="#829eae"/>
-      <g transform="translate(57 57)"><circle r="6" fill="url(#cyan)"/></g>
-    </g>
+
+  <line x1="44" y1="174" x2="856" y2="174" class="rule" />
+
+  <!-- Equal columns keep the original specification-card rhythm. -->
+  <g transform="translate(44 205)">
+    <text class="label">BACKEND</text>
+    <text y="31" class="tech">.NET Core</text>
+    <text y="58" class="detail">C# 12</text>
+    <text y="81" class="detail">Clean Architecture</text>
+    <text y="104" class="detail">Enterprise APIs</text>
   </g>
-  <path class="rule" d="M48 242H912"/>
-  <g transform="translate(48 273)"><g class="column column-1">
-    <text class="label">BACKEND</text><text class="stack" y="29">C# / .NET</text><text class="detail" y="53">APIs &amp; Clean Architecture</text>
-  </g></g>
-  <g transform="translate(270 273)"><g class="column column-2">
-    <text class="label">FRONTEND</text><text class="stack" y="29">React / Next.js</text><text class="detail" y="53">TypeScript &amp; Tailwind CSS</text>
-  </g></g>
-  <g transform="translate(492 273)"><g class="column column-3">
-    <text class="label">INFRASTRUCTURE</text><text class="stack" y="29">Docker / Linux</text><text class="detail" y="53">VPS &amp; self-hosted services</text>
-  </g></g>
-  <g transform="translate(714 273)"><g class="column column-4">
-    <text class="label">DATA &amp; STORAGE</text><text class="stack" y="29">PostgreSQL / R2</text><text class="detail" y="53">Supabase &amp; MongoDB</text>
-  </g></g>
-  <path class="rule" d="M48 357H912"/>
-  <!-- Identical tracks loop seamlessly and degrade to static text without CSS. -->
-  <g transform="translate(48 376)" aria-hidden="true"><g clip-path="url(#ticker-clip)"><g mask="url(#ticker-mask)">
-    <g class="ticker"><use href="#tools"/><use href="#tools" x="864"/></g>
-  </g></g></g>
+  <line x1="237" y1="200" x2="237" y2="314" class="rule" />
+  <g transform="translate(258 205)">
+    <text class="label">FRONTEND</text>
+    <text y="31" class="tech">React</text>
+    <text y="58" class="detail">Next.js App Router</text>
+    <text y="81" class="detail">Tailwind CSS</text>
+    <text y="104" class="detail">TypeScript</text>
+  </g>
+  <line x1="451" y1="200" x2="451" y2="314" class="rule" />
+  <g transform="translate(472 205)">
+    <text class="label">HOSTING</text>
+    <text y="31" class="tech">Docker</text>
+    <text y="58" class="detail">VPS Deployments</text>
+    <text y="81" class="detail">Local Server Nodes</text>
+    <text y="104" class="detail">Linux Environment</text>
+  </g>
+  <line x1="665" y1="200" x2="665" y2="314" class="rule" />
+  <g transform="translate(686 205)">
+    <text class="label">STORAGE</text>
+    <text y="31" class="tech">Cloudflare R2</text>
+    <text y="58" class="detail">S3 Object Storage</text>
+    <text y="81" class="detail">Supabase (PostgreSQL)</text>
+    <text y="104" class="detail">MongoDB</text>
+  </g>
+
+  <line x1="44" y1="344" x2="856" y2="344" class="rule" />
+
+  <g transform="translate(44 383)">
+    <text class="section">Initiatives</text>
+    <text y="38" class="item">Microsoft Learn Student Ambassador</text>
+    <text y="61" class="body">Technical sessions and workshops covering backend and cloud systems.</text>
+    <text y="103" class="item">Google Developer Groups on Campus</text>
+    <text y="126" class="body">Developer tracks and hands-on materials for Nile University students.</text>
+    <text y="168" class="item">Samsung Innovation Campus</text>
+    <text y="191" class="body">Embedded microcontrollers, sensor telemetry, and hardware integration.</text>
+  </g>
+
+  <line x1="44" y1="607" x2="856" y2="607" class="rule" />
+
+  <g transform="translate(44 646)">
+    <text class="section">Reference Guides</text>
+    <text y="28" class="body">Workshop materials, development workflows, and academic work.</text>
+    <a href="https://github.com/AGhaith/GitHub-Guide" aria-label="Open GitHub Guide">
+      <text y="70" class="item">GitHub Guide</text>
+      <text y="93" class="body">Branching workflows, conflict resolution,</text>
+      <text y="114" class="body">and repository hygiene.</text>
+      <text y="139" class="link">AGhaith / GitHub-Guide</text>
+    </a>
+    <a href="https://github.com/AGhaith/VS-Code-Guide" aria-label="Open VS Code Guide">
+      <text x="428" y="70" class="item">VS Code Guide</text>
+      <text x="428" y="93" class="body">Editor configuration, keybindings,</text>
+      <text x="428" y="114" class="body">debugger setups, and toolchains.</text>
+      <text x="428" y="139" class="link">AGhaith / VS-Code-Guide</text>
+    </a>
+    <a href="https://github.com/AGhaith/Google-Development-Group" aria-label="Open GDG Sessions">
+      <text y="181" class="item">GDG Sessions</text>
+      <text y="204" class="body">Exercise materials and workshop codebases</text>
+      <text y="225" class="body">for campus tracks.</text>
+      <text y="250" class="link">AGhaith / Google-Development-Group</text>
+    </a>
+    <a href="https://github.com/AGhaith/educational-projects" aria-label="Open Academic Coursework">
+      <text x="428" y="181" class="item">Academic Coursework</text>
+      <text x="428" y="204" class="body">Core data structures and algorithms</text>
+      <text x="428" y="225" class="body">implementations.</text>
+      <text x="428" y="250" class="link">AGhaith / educational-projects</text>
+    </a>
+  </g>
+
+  <line x1="44" y1="928" x2="856" y2="928" class="rule" />
+
+  <g transform="translate(44 968)">
+    <text class="section">Contact</text>
+    <text y="32" class="contact-label">Email</text>
+    <a href="mailto:a.wesam2300@nu.edu.eg" aria-label="Email Ahmed Wesam">
+      <text y="56" class="contact-value">a.wesam2300@nu.edu.eg</text>
+    </a>
+    <text x="428" y="32" class="contact-label">LinkedIn</text>
+    <a href="https://www.linkedin.com/in/ahmed-wesam/" aria-label="Ahmed Wesam on LinkedIn">
+      <text x="428" y="56" class="contact-value">linkedin.com/in/ahmed-wesam</text>
+    </a>
+    <text y="92" class="contact-label">Based in Sheikh Zayed, Cairo, Egypt</text>
+    <a href="https://github.com/AGhaith?tab=repositories" aria-label="Browse Ahmed Wesam's repositories">
+      <text x="428" y="92" class="link">github.com/AGhaith</text>
+    </a>
+  </g>
 </svg>
