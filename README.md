@@ -1,3 +1,3 @@
 <div align="center">
-  <img src="./assets/overview.svg" alt="Ahmed Wesam's engineering profile: backend, frontend, hosting, storage, initiatives, reference guides, and contact details. Computer Science at Nile University and Head of the SU Technical Committee. Based in Sheikh Zayed, Cairo, Egypt. Email: a.wesam2300@nu.edu.eg. GitHub: AGhaith. LinkedIn: ahmed-wesam." width="100%" />
+  <img src="./assets/overview.svg" alt="Ahmed Wesam's engineering profile: backend, frontend, hosting, storage, initiatives, reference guides, and contact details. Computer Science at Nile University. Initiatives: Microsoft Learn Student Ambassadors, Head of SWE Track; GDG on Campus, Backend Mentor; Samsung Innovation Campus, IoT Alumnus; SU, Head of the Technical Committee. Hosting includes Railway. Coding with AI agents: Codex, Claude, Gemini. Based in Sheikh Zayed, Cairo, Egypt. Email: a.wesam2300@nu.edu.eg. GitHub: AGhaith. LinkedIn: ahmed-wesam." width="100%" />
 </div>

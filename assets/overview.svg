@@ -1,20 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1120" width="900" height="1120" role="img" aria-labelledby="profile-title profile-description">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1285" width="900" height="1285" role="img" aria-labelledby="profile-title profile-description">
   <title id="profile-title">Ahmed Wesam | Engineering profile</title>
-  <desc id="profile-description">Backend architecture, modern client interfaces, and private infrastructure. Computer Science at Nile University. Head of the SU Technical Committee. Sheikh Zayed, Cairo, Egypt. Stack: .NET Core, C# 12, Clean Architecture, Enterprise APIs, React, Next.js App Router, Tailwind CSS, TypeScript, Docker, VPS Deployments, Local Server Nodes, Linux, Cloudflare R2, S3 Object Storage, Supabase PostgreSQL, and MongoDB. Initiatives: Microsoft Learn Student Ambassador, Google Developer Groups on Campus, and Samsung Innovation Campus. Guides on github.com/AGhaith: GitHub-Guide, VS-Code-Guide, Google-Development-Group, and educational-projects. Email: a.wesam2300@nu.edu.eg. LinkedIn: linkedin.com/in/ahmed-wesam.</desc>
+  <desc id="profile-description">Ahmed Wesam. Computer Science at Nile University, Sheikh Zayed, Cairo, Egypt. Backend architecture, modern client interfaces, and private infrastructure. Backend: .NET Core, C# 12, Clean Architecture, Enterprise APIs. Frontend: React, Next.js App Router, Tailwind CSS, TypeScript. Hosting: Docker, VPS Deployments, Local Server Nodes, Linux, Railway. Storage: Cloudflare R2, S3 Object Storage, Supabase PostgreSQL, MongoDB. Coding with AI agents: Codex, Claude, Gemini. Initiatives: Microsoft Learn Student Ambassadors, Head of SWE Track; Google Developer Groups on Campus, Backend Mentor; Samsung Innovation Campus, IoT Alumnus; Nile University Student Union, Head of the Technical Committee. Guides on github.com/AGhaith: GitHub-Guide, VS-Code-Guide, Google-Development-Group, educational-projects. Email: a.wesam2300@nu.edu.eg. LinkedIn: linkedin.com/in/ahmed-wesam. The original silver and slate emblem floats beside the introduction.</desc>
   <defs>
-    <linearGradient id="surface" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#171719" />
-      <stop offset="1" stop-color="#0c0c0e" />
+    <linearGradient id="surface" x1="0" y1="0" x2="900" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#171e28" />
+      <stop offset="0.6" stop-color="#0d121b" />
+      <stop offset="1" stop-color="#101620" />
     </linearGradient>
     <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#414145" />
-      <stop offset="0.5" stop-color="#29292d" />
-      <stop offset="1" stop-color="#343438" />
+      <stop offset="0" stop-color="#515e6a" stop-opacity=".65" />
+      <stop offset="0.5" stop-color="#293441" stop-opacity=".5" />
+      <stop offset="1" stop-color="#536776" stop-opacity=".5" />
     </linearGradient>
+<linearGradient id="silver" x1="-60" y1="-65" x2="48" y2="70" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f1f6ee"/><stop offset=".5" stop-color="#bdcbd0"/><stop offset="1" stop-color="#748a99"/>
+    </linearGradient>
+<linearGradient id="slate" x1="-20" y1="-70" x2="65" y2="65" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#758a99"/><stop offset="1" stop-color="#252e3e"/>
+    </linearGradient>
+<linearGradient id="cyan" x1="0" y1="-6" x2="0" y2="6" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c4f8ff"/><stop offset="1" stop-color="#71cce5"/>
+    </linearGradient>
+<radialGradient id="halo"><stop stop-color="#8fd5e7" stop-opacity=".12"/><stop offset="1" stop-color="#8fd5e7" stop-opacity="0"/></radialGradient>
   </defs>
   <style>
     text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
-    .eyebrow { font-size: 11px; font-weight: 600; letter-spacing: 1.7px; fill: #2997ff; }
+    .eyebrow { font-size: 11px; font-weight: 600; letter-spacing: 1.7px; fill: #a3b3bf; }
     .name { font-size: 38px; font-weight: 600; letter-spacing: -1px; fill: #f5f5f7; }
     .intro { font-size: 15px; fill: #b0b0b8; }
     .label { font-size: 11px; font-weight: 600; letter-spacing: 1.2px; fill: #a1a1aa; }
@@ -23,53 +34,82 @@
     .section { font-size: 20px; font-weight: 600; letter-spacing: -0.3px; fill: #f5f5f7; }
     .item { font-size: 15px; font-weight: 600; fill: #ededf0; }
     .body { font-size: 14px; fill: #b0b0b8; }
-    .link { font-size: 12px; fill: #2997ff; }
+    .link { font-size: 12px; fill: #a9deeb; }
+    .initiative-role { font-size: 17px; font-weight: 600; fill: #a9deeb; }
     .contact-label { font-size: 12px; fill: #a1a1aa; }
     .contact-value { font-size: 14px; fill: #ededf0; }
-    .rule { stroke: #2b2b2f; stroke-width: 1; }
+    .rule { stroke: #a4bdcc; stroke-opacity: .14; stroke-width: 1; }
     a { text-decoration: none; }
     a:hover text, a:focus text { fill: #79beff; }
     a:focus { outline: 2px solid #2997ff; outline-offset: 4px; }
+    .emblem { animation: float 8s ease-in-out infinite; }
+    .halo { animation: breathe 8s ease-in-out infinite; }
+    .orbit { animation: orbit 28s linear infinite; }
+    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-5px); } }
+    @keyframes breathe { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
+    @keyframes orbit { to { transform: rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) {
+      .emblem, .halo, .orbit { animation: none; }
+    }
   </style>
 
   <!-- A single continuous surface contains the complete profile. -->
-  <rect x="0.5" y="0.5" width="899" height="1119" rx="22" fill="url(#surface)" stroke="url(#edge)" />
+  <rect x="0.5" y="0.5" width="899" height="1284" rx="22" fill="url(#surface)" stroke="url(#edge)" />
 
   <g transform="translate(44 44)">
-    <text class="eyebrow">ENGINEERING SPECIFICATION</text>
+    <text class="eyebrow">DEVELOPMENT &amp; COMMUNITY</text>
     <text y="44" class="name">Ahmed Wesam</text>
-    <text y="75" class="intro">Backend architecture, modern client interfaces, and private infrastructure.</text>
-    <text y="100" class="body">Computer Science at Nile University · Head of the SU Technical Committee</text>
+    <text y="75" class="intro">Backend architecture, modern client interfaces,</text>
+    <text y="98" class="intro">and private infrastructure.</text>
+    <text y="133" class="body">Computer Science at Nile University</text>
   </g>
 
-  <line x1="44" y1="174" x2="856" y2="174" class="rule" />
+  <line x1="44" y1="222" x2="856" y2="222" class="rule" />
+
+  <!-- Original logo-inspired emblem and motion restored from the animated banner. -->
+  <g transform="translate(750 126) scale(.88)" aria-hidden="true" fill="none">
+    <circle class="halo" r="124" fill="url(#halo)"/>
+    <circle r="96" stroke="#a6bfcb" stroke-opacity=".12"/>
+    <g class="orbit"><circle cx="0" cy="-96" r="3" fill="#a9deeb"/></g>
+    <g class="emblem">
+      <rect x="-73" y="-73" width="146" height="146" rx="31" fill="#151e2b" stroke="#657988" stroke-opacity=".42"/>
+      <path d="M0-60 A60 60 0 0 0-60 0 H0Z" fill="url(#silver)"/>
+      <path d="M0-60 A60 60 0 0 1 60 0 H0Z" fill="url(#slate)"/>
+      <path d="M-60 0 A60 60 0 0 0 0 60 V0Z" fill="url(#slate)"/>
+      <path d="M0 0 H60 A60 60 0 0 1 0 60Z" fill="#202838"/>
+      <path d="M0-60 A60 60 0 0 0-60 0" stroke="#ecf4ef" stroke-opacity=".55"/>
+      <circle cx="-57" cy="-57" r="6" fill="#829eae"/>
+      <g transform="translate(57 57)"><circle r="6" fill="url(#cyan)"/></g>
+    </g>
+  </g>
 
   <!-- Equal columns keep the original specification-card rhythm. -->
-  <g transform="translate(44 205)">
+  <g transform="translate(44 253)">
     <text class="label">BACKEND</text>
     <text y="31" class="tech">.NET Core</text>
     <text y="58" class="detail">C# 12</text>
     <text y="81" class="detail">Clean Architecture</text>
     <text y="104" class="detail">Enterprise APIs</text>
   </g>
-  <line x1="237" y1="200" x2="237" y2="314" class="rule" />
-  <g transform="translate(258 205)">
+  <line x1="237" y1="248" x2="237" y2="384" class="rule" />
+  <g transform="translate(258 253)">
     <text class="label">FRONTEND</text>
     <text y="31" class="tech">React</text>
     <text y="58" class="detail">Next.js App Router</text>
     <text y="81" class="detail">Tailwind CSS</text>
     <text y="104" class="detail">TypeScript</text>
   </g>
-  <line x1="451" y1="200" x2="451" y2="314" class="rule" />
-  <g transform="translate(472 205)">
+  <line x1="451" y1="248" x2="451" y2="384" class="rule" />
+  <g transform="translate(472 253)">
     <text class="label">HOSTING</text>
     <text y="31" class="tech">Docker</text>
     <text y="58" class="detail">VPS Deployments</text>
     <text y="81" class="detail">Local Server Nodes</text>
     <text y="104" class="detail">Linux Environment</text>
+    <text y="127" class="detail">Railway</text>
   </g>
-  <line x1="665" y1="200" x2="665" y2="314" class="rule" />
-  <g transform="translate(686 205)">
+  <line x1="665" y1="248" x2="665" y2="384" class="rule" />
+  <g transform="translate(686 253)">
     <text class="label">STORAGE</text>
     <text y="31" class="tech">Cloudflare R2</text>
     <text y="58" class="detail">S3 Object Storage</text>
@@ -77,21 +117,34 @@
     <text y="104" class="detail">MongoDB</text>
   </g>
 
-  <line x1="44" y1="344" x2="856" y2="344" class="rule" />
+  <line x1="44" y1="414" x2="856" y2="414" class="rule" />
+  <g transform="translate(44 449)">
+    <text class="label">AI-ASSISTED DEVELOPMENT</text>
+    <text x="428" class="body">Codex · Claude · Gemini</text>
+  </g>
+  <line x1="44" y1="480" x2="856" y2="480" class="rule" />
 
-  <g transform="translate(44 383)">
+  <g transform="translate(44 519)">
     <text class="section">Initiatives</text>
-    <text y="38" class="item">Microsoft Learn Student Ambassador</text>
-    <text y="61" class="body">Technical sessions and workshops covering backend and cloud systems.</text>
-    <text y="103" class="item">Google Developer Groups on Campus</text>
-    <text y="126" class="body">Developer tracks and hands-on materials for Nile University students.</text>
-    <text y="168" class="item">Samsung Innovation Campus</text>
-    <text y="191" class="body">Embedded microcontrollers, sensor telemetry, and hardware integration.</text>
+    <text y="40" class="item">Microsoft Learn Student Ambassadors</text>
+    <text y="65" class="initiative-role">Head of SWE Track</text>
+    <text y="89" class="body">Technical sessions and workshops covering</text>
+    <text y="110" class="body">backend and cloud systems.</text>
+    <text x="428" y="40" class="item">Google Developer Groups on Campus</text>
+    <text x="428" y="65" class="initiative-role">Backend Mentor</text>
+    <text x="428" y="89" class="body">Developer tracks and hands-on materials</text>
+    <text x="428" y="110" class="body">for Nile University students.</text>
+    <text y="148" class="item">Samsung Innovation Campus</text>
+    <text y="173" class="initiative-role">IoT Alumnus</text>
+    <text y="197" class="body">Embedded microcontrollers, sensor telemetry,</text>
+    <text y="218" class="body">and hardware integration.</text>
+    <text x="428" y="148" class="item">Nile University Student Union (SU)</text>
+    <text x="428" y="173" class="initiative-role">Head of the Technical Committee</text>
   </g>
 
-  <line x1="44" y1="607" x2="856" y2="607" class="rule" />
+  <line x1="44" y1="772" x2="856" y2="772" class="rule" />
 
-  <g transform="translate(44 646)">
+  <g transform="translate(44 811)">
     <text class="section">Reference Guides</text>
     <text y="28" class="body">Workshop materials, development workflows, and academic work.</text>
     <a href="https://github.com/AGhaith/GitHub-Guide" aria-label="Open GitHub Guide">
@@ -120,9 +173,9 @@
     </a>
   </g>
 
-  <line x1="44" y1="928" x2="856" y2="928" class="rule" />
+  <line x1="44" y1="1093" x2="856" y2="1093" class="rule" />
 
-  <g transform="translate(44 968)">
+  <g transform="translate(44 1133)">
     <text class="section">Contact</text>
     <text y="32" class="contact-label">Email</text>
     <a href="mailto:a.wesam2300@nu.edu.eg" aria-label="Email Ahmed Wesam">
