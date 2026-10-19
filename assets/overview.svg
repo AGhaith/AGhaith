@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1285" width="900" height="1285" role="img" aria-labelledby="profile-title profile-description">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1321" width="900" height="1321" role="img" aria-labelledby="profile-title profile-description">
   <title id="profile-title">Ahmed Wesam | Engineering profile</title>
-  <desc id="profile-description">Ahmed Wesam. Computer Science at Nile University, Sheikh Zayed, Cairo, Egypt. Backend architecture, modern client interfaces, and private infrastructure. Backend: .NET Core, C# 12, Clean Architecture, Enterprise APIs. Frontend: React, Next.js App Router, Tailwind CSS, TypeScript. Hosting: Docker, VPS Deployments, Local Server Nodes, Linux, Railway. Storage: Cloudflare R2, S3 Object Storage, Supabase PostgreSQL, MongoDB. Coding with AI agents: Codex, Claude, Gemini. Initiatives: Microsoft Learn Student Ambassadors, Head of SWE Track; Google Developer Groups on Campus, Backend Mentor; Samsung Innovation Campus, IoT Alumnus; Nile University Student Union, Head of the Technical Committee. Guides on github.com/AGhaith: GitHub-Guide, VS-Code-Guide, Google-Development-Group, educational-projects. Email: a.wesam2300@nu.edu.eg. LinkedIn: linkedin.com/in/ahmed-wesam. The original silver and slate emblem floats beside the introduction.</desc>
+  <desc id="profile-description">Ahmed Wesam. Computer Science at Nile University, Sheikh Zayed, Cairo, Egypt. Backend architecture, modern client interfaces, and private infrastructure. Backend: .NET Core, C# 12, Clean Architecture, Enterprise APIs. Frontend: React, Next.js App Router, Tailwind CSS, TypeScript. Hosting: Docker, VPS Deployments, Local Server Nodes, Linux, Railway. Storage: Cloudflare R2, S3 Object Storage, Supabase PostgreSQL, MongoDB. Coding with AI agents: Codex, Claude, Gemini. Problem solving: ECPC Finalist, 73rd in Egypt. Initiatives: Microsoft Learn Student Ambassadors, Head of SWE Track; Google Developer Groups on Campus, Backend Mentor; Samsung Innovation Campus, IoT Alumnus; Nile University Student Union, Head of the Technical Committee. Guides on github.com/AGhaith: GitHub-Guide, VS-Code-Guide, Google-Development-Group, educational-projects. Email: a.wesam2300@nu.edu.eg. LinkedIn: linkedin.com/in/ahmed-wesam. The original silver and slate emblem floats beside the introduction.</desc>
   <defs>
     <linearGradient id="surface" x1="0" y1="0" x2="900" y2="420" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#171e28" />
@@ -54,7 +54,7 @@
   </style>
 
   <!-- A single continuous surface contains the complete profile. -->
-  <rect x="0.5" y="0.5" width="899" height="1284" rx="22" fill="url(#surface)" stroke="url(#edge)" />
+  <rect x="0.5" y="0.5" width="899" height="1320" rx="22" fill="url(#surface)" stroke="url(#edge)" />
 
   <g transform="translate(44 44)">
     <text class="eyebrow">DEVELOPMENT &amp; COMMUNITY</text>
@@ -121,10 +121,12 @@
   <g transform="translate(44 449)">
     <text class="label">AI-ASSISTED DEVELOPMENT</text>
     <text x="428" class="body">Codex · Claude · Gemini</text>
+    <text y="36" class="label">PROBLEM SOLVING</text>
+    <text x="428" y="36" class="initiative-role">ECPC Finalist · 73rd in Egypt</text>
   </g>
-  <line x1="44" y1="480" x2="856" y2="480" class="rule" />
+  <line x1="44" y1="516" x2="856" y2="516" class="rule" />
 
-  <g transform="translate(44 519)">
+  <g transform="translate(44 555)">
     <text class="section">Initiatives</text>
     <text y="40" class="item">Microsoft Learn Student Ambassadors</text>
     <text y="65" class="initiative-role">Head of SWE Track</text>
@@ -142,9 +144,9 @@
     <text x="428" y="173" class="initiative-role">Head of the Technical Committee</text>
   </g>
 
-  <line x1="44" y1="772" x2="856" y2="772" class="rule" />
+  <line x1="44" y1="808" x2="856" y2="808" class="rule" />
 
-  <g transform="translate(44 811)">
+  <g transform="translate(44 847)">
     <text class="section">Reference Guides</text>
     <text y="28" class="body">Workshop materials, development workflows, and academic work.</text>
     <a href="https://github.com/AGhaith/GitHub-Guide" aria-label="Open GitHub Guide">
@@ -173,9 +175,9 @@
     </a>
   </g>
 
-  <line x1="44" y1="1093" x2="856" y2="1093" class="rule" />
+  <line x1="44" y1="1129" x2="856" y2="1129" class="rule" />
 
-  <g transform="translate(44 1133)">
+  <g transform="translate(44 1169)">
     <text class="section">Contact</text>
     <text y="32" class="contact-label">Email</text>
     <a href="mailto:a.wesam2300@nu.edu.eg" aria-label="Email Ahmed Wesam">
